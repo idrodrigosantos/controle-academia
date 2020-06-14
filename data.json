@@ -1,0 +1,66 @@
+{
+    "instructors": [
+        {
+            "id": 1,
+            "avatar_url": "https://source.unsplash.com/5UbIqV58CW8",
+            "name": "Maria Silva",
+            "birth": 642297600000,
+            "gender": "F",
+            "services": "Crossfit",
+            "created_at": 1590603988574
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://source.unsplash.com/TAZoUmDqzXk",
+            "name": "João Silva",
+            "birth": 803606400000,
+            "gender": "M",
+            "services": "Musculação, Futebol",
+            "created_at": 1590604016142
+        },
+        {
+            "id": 3,
+            "avatar_url": "https://source.unsplash.com/0ShTs8iPY28",
+            "name": "Juliana Campos",
+            "birth": 892166400000,
+            "gender": "F",
+            "services": "Natação, Crossfit, Musculação",
+            "created_at": 1590676770357
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "avatar_url": "https://source.unsplash.com/KblIFRq1jkg",
+            "name": "Roberta Santos",
+            "email": "robertasantos@email.com",
+            "birth": 631929600000,
+            "gender": "F",
+            "blood": "A-",
+            "weight": "70",
+            "height": "175"
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://source.unsplash.com/sHfo3WOgGTU",
+            "name": "José Amarantes",
+            "email": "joaseamarantes@email.com",
+            "birth": 814147200000,
+            "gender": "M",
+            "blood": "O+",
+            "weight": "98",
+            "height": "184"
+        },
+        {
+            "id": 3,
+            "avatar_url": "https://source.unsplash.com/DC5akQJyH4I",
+            "name": "Melissa Souza",
+            "email": "melissasouza@email.com",
+            "birth": 965865600000,
+            "gender": "F",
+            "blood": "AB-",
+            "weight": "50",
+            "height": "160"
+        }
+    ]
+}

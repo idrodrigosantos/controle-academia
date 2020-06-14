@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% block head %}
+            <title>Controle de Academia</title>
+        {% endblock %}
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/instructors">Instrutores</a>
+
+                <a href="/members">Membros</a>
+            </div>
+        </header>
+
+        {% block content %}{% endblock %}
+
+        <script src="/js/scripts.js"></script>
+    </body>
+
+</html>
