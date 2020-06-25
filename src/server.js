@@ -1,6 +1,6 @@
 // Importa o express
 const express = require('express');
-// Importa o nunjucks
+// Importando o nunjucks
 const nunjucks = require('nunjucks');
 // Importa as rotas
 const routes = require('./routes');
@@ -24,13 +24,13 @@ server.use(routes);
 
 // Configurando o nunjucks
 server.set('view engine', 'njk');
-nunjucks.configure('views', {
+nunjucks.configure('src/app/views', {
     express: server,
     // Não faz cache no navegador
     noCache: true
 });
 
-// Inicia o servidor
+// Inicia o servidor na porta 5000
 server.listen(5000, function () {
     console.log("Server is running.");
 });
