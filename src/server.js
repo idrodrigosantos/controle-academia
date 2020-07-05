@@ -1,13 +1,14 @@
-// Importa o express
+// Importa os pacotes
 const express = require('express');
-// Importando o nunjucks
 const nunjucks = require('nunjucks');
+
 // Importa as rotas
 const routes = require('./routes');
+
 // Importa o method-override
 const methodOverride = require('method-override');
 
-// Cria o servidor que irá executar o express
+// Cria o servidor
 const server = express();
 
 // Funcionamento do req.body do post, enviando os dados do formulário
@@ -22,7 +23,7 @@ server.use(methodOverride('_method'));
 // Usa as rotas
 server.use(routes);
 
-// Configurando o nunjucks
+// Configuração do nunjucks
 server.set('view engine', 'njk');
 nunjucks.configure('src/app/views', {
     express: server,
