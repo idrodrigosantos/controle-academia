@@ -12,7 +12,7 @@ Sistema para controle de academia.
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/imsantosrodrigo/controle-academia.git
+$ git clone https://github.com/idrodrigosantos/controle-academia.git
 
 # Acesse o diretório
 $ cd controle-academia
